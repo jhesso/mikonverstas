@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>laitteet</title>
+		<link rel="stylesheet" href="./style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="page-container">
+			<header>
+				<div class="otsikko">
+					Mikon verstas
+				</div>
+				<div class="navbuttons">
+					<a href="laitteet.php">Laitteet</a>
+					<a href="">Opiskelijat</a>
+					<a href="">Lainaukset</a>
+					<a href="">Ohjaajat</a>
+					<a href="">Kirjaudu ulos</a>
+				</div>
+			</header>
+			<div>
+				<form action="add.php" method="post" name="form1">
+					<table width="25%" border="0">
+						<tr>
+							<td>nimi</td>
+							<td><input type="text" name="name"></td>
+						</tr>
+						<tr>
+							<td>tunniste</td>
+							<td><input type="text" name="machine_id"></td>
+						</tr>
+						<tr>
+							<td>sarjanumero</td>
+							<td><input type="text" name="serial"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input type="submit" name="Submit" value="Add"></td>
+						</tr>
+					</table>
+			</div>
+			<footer>
+				<div id="content-wrap">
+					<p>Handmade in Luksia by Ohjelmistkehittäjät</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
