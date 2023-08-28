@@ -16,11 +16,11 @@
 				Mikon verstas
 			</div>
 			<div class="navbuttons">
-				<a href="laitteet.php">Laitteet</a>
-				<a href="">Opiskelijat</a>
-				<a href="">Lainaukset</a>
-				<a href="">Ohjaajat</a>
-				<a href="">Kirjaudu ulos</a>
+				<a href="laitteet.php" class="button">Laitteet</a>
+				<a href="" class="button">Opiskelijat</a>
+				<a href="" class="button">Lainaukset</a>
+				<a href="" class="button">Ohjaajat</a>
+				<a href="" class="button">Kirjaudu ulos</a>
 			</div>
 		</header>
 		<div class="laitteet">

@@ -20,13 +20,14 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-	color: var(--dark-text);
-	background: var(--dark-bg);
+	color: black;
+	background: tan;
 }
 
 header{
 	display: flex;
 	justify-content: space-between;
+	color: grey;
 	background-color: var(--darker-header-footer);
 	margin-top: 0px;
 	padding: 10px 20px 10px 20px;
@@ -38,4 +39,30 @@ footer{
 	background-color: var(--darker-header-footer);
 	margin-top: 0px;
 	padding: 10px 20px 10px 20px;
+}
+
+.otsikko {
+	font-size: 50px;
+}
+
+a:link {
+	color: grey;
+	text-decoration: none;
+}
+a:visited {
+	color: grey;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.navbuttons {
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	padding: 10px;
 }
